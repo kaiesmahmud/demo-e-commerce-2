@@ -1,0 +1,100 @@
+/*menu*/
+.fontweight{
+    font-weight: 700;
+    color: grey;
+    
+}
+a{
+    text-decoration: none;
+}
+/*menu ends*/
+/*carousel*/
+.container{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.buynowbtn{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-weight: 700;
+    
+}
+.buynowbtn:hover{
+    color: lightgrey;
+}
+.banner-bg{
+ 
+    background-image: url("bg-1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.cat-padding{
+    padding: 70px 20px;
+}
+/*carousel ends*/
+/*categories*/
+.seeall{
+  padding-right: 20px ;
+    font-weight: 900;
+    color: orange ;
+    
+}
+.seeall:hover{
+    color: orangered;
+}
+.cardborder{
+    border: none;
+    margin: 20px 0px;
+    box-shadow: 10px 10px  30px lightgrey;
+    padding: 10px 5px;
+    border-radius: 10px 10px ;
+}
+.card{
+    border: none;
+}
+.card-body{
+    height:450px;
+}
+
+.card-footer{
+    background-color: white;
+    border: none;
+}
+.smartphone{
+    border-radius: 5px;
+    
+    background-color: rgb(245, 218, 245);
+}
+.laptop{
+    margin-top: 100px ;
+    border-radius: 5px;
+    background-color: hsl(174, 78%, 86%);
+}
+/*main work done*/
+.categories{
+    margin: 100px 0px;
+}
+.line{
+    height: 15px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: slategray;
+  /*  position: relative;
+    left: 42%; */
+}
+.copyright{
+    padding: 15px 20px;
+    color: grey;
+
+/* p{
+    color: grey;
+} */
+/* .grey{
+    color: grey ;
+} */
+/* .topmargin{
+    margin-top: 100px;
+} */

@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>My 2nd E-commerce</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container "> <!-- fixed-top nice dite hbe-->
+            <nav class="navbar  navbar-light navbar-expand-md " style="background-color: #e3f2fd;">
+                <!-- Navbar content -->
+                
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">
+                          <img src="logo.png" alt="">
+                      </a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse fontweight justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#product">Product</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#features">Features</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#footer">About us</a>
+                          </li>
+                          <li class="nav-item">
+                            
+                            <div class="dropdown ">
+                                <button class="btn btn-outline-info fontweight dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Contact
+                                </button>
+                                <ul class="dropdown-menu " aria-labelledby="dropdownMenu2">
+                                  <li><button class="dropdown-item" type="button">E-mail</button></li>
+                                  <li><button class="dropdown-item" type="button">Facebook</button></li>
+                                  <li><button class="dropdown-item" type="button">Something else here</button></li>
+                                </ul>
+                              </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  
+              </nav>
+        </div>
+          <!--menu ends here-->
+          <!--carousel starts here-->
+          
+          <div class="container topmargin">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner banner-bg">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <div class="row">
+                        <div class="col-md-6 cat-padding">
+                            <h1>Mackbook Pro</h1>
+                            <p class="grey"> Apple M1 chip with 8-core CPU, 8-core GPU, and 16-core Neural Engine; 8GB unified memory; 256GB SSD storage¹; 13-inch Retina display with True Tone </p><br><br><br>
+                            <a class="buynowbtn"  href="#">Buy Now →</a>
+                        </div>
+                        <div class="col-md-6">
+                            <img class="w-100"  src="banner-products/product-1.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <div class="row">
+                        <div class="col-md-6 cat-padding">
+                            <h1>Amazon Echo</h1>
+                            <p class="grey">Amazon Echo is a smart speaker that responds to voice commands using Alexa, its artificially intelligent personal assistant.</p><br><br><br><br>
+                            <a class="buynowbtn"  href="#">Buy Now →</a>
+                        </div>
+                        <div class="col-md-6">
+                            
+                            <img src="banner-products/slider-1.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-6 cat-padding">
+                            <h1>JBL</h1>
+                            <p class="grey">Enjoy your music wirelessly! JBL offers a wide selection of waterproof portable Bluetooth speakers with rechargeable battery options. Browse our products!</p><br><br><br>
+                            <a class="buynowbtn"  href="#">Buy Now → </a>
+
+                        </div>
+                        <div class="col-md-6">
+                            <img src="banner-products/slider-3.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+          </div>
+          <!--carousel endss, hurray-->
+          <!-- categories-->
+         <div class="container smartphone" id="product">
+            <div class="d-flex  justify-content-between align-items-center">
+                <div>
+                    <h2>Smartphone</h2>
+                </div>
+                <div class="seeall">
+                    <h5>See all</h5>
+                </div>
+            </div>
+         </div>
+          <!--card-->
+         <div class="container">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card h-100 cardborder">
+                    <img src="phone/phone-1.png"   class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h2 class="card-title">Redmi Note 9 Pro Max </h2>
+                        <p class="card-text grey">Xiaomi's Redmi Note 9 Pro Max has the usual quad-camera specs – 64MP primary + 8MP wide-angle + 5MP depth + 2MP macro . The handset  powered by Qualcomm Snapdragon 720G octa-core chipset paired with up to 8GB RAM</p>
+                        <h3>$600</h3>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <a class="buynowbtn "  href="#">Buy Now →</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 cardborder">
+                    <img src="phone/phone-2.png" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h2 class="card-title grey">Iphone 11 Pro</h2>
+                        <p class="card-text">194g, 8.3mm thickness · iOS 13, up to iOS 14.7 · 64GB/128GB/256GB storage, no card slot </p>
+                        <h3>$1200</h3>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <a class="buynowbtn "  href="#">Buy Now →</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 cardborder">
+                    <img src="phone/phone-3.png" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h2 class="card-title">Samsung Note 10</h2>
+                        <p class="card-text">
+                            <ul class="text-start  grey">
+                                <li>list1</li>
+                                <li>list2</li>
+                                <li>list3</li>
+                                <li>list4</li>
+                                <li>list5</li>
+                                <li>list6</li>
+                                <li>list7</li>
+                                <li>list8</li>
+                                <li>list9</li>
+                                <li>list10</li>
+                            </ul>
+                        </p>
+                        <h3>$909</h3>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center">
+                      <a class="buynowbtn "  href="#">Buy Now →</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+         </div>
+
+        
+<!-- categories-->
+<div class="container laptop ">
+    <div class="d-flex  justify-content-between align-items-center">
+        <div>
+            <h2>Laptop</h2>
+        </div>
+        <div class="seeall">
+            <h5>See all</h5>
+        </div>
+    </div>
+ </div>
+  <!--card-->
+
+
+
+
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100 cardborder">
+            <img src="laptop/product-1.png"   class="card-img-top" alt="...">
+            <div class="card-body text-center">
+                <h2 class="card-title  ">Asus Vivobook</h2>
+                <p class="card-text  grey">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit et cum quibusdam ex! Saepe cum illo ab recusandae eligendi assumenda magni ullam alias? Necessitatibus voluptatum nemo dolorem a quos eius.</p>
+                <h3>$600</h3>
+            </div>
+            <div class="card-footer d-flex justify-content-center">
+              <a class="buynowbtn "  href="#">Buy Now →</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 cardborder">
+            <img src="laptop/product-2.png" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+                <h2 class="card-title">Razer Blade 15</h2>
+                <p class="card-text  grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem eius est molestias. Dolorem dicta saepe eveniet quibusdam accusantium consequatur cum esse ut rerum sed numquam porro, maiores reprehenderit veritatis suscipit!</p>
+                <h3>$3200</h3>
+            </div>
+            <div class="card-footer d-flex justify-content-center">
+              <a class="buynowbtn "  href="#">Buy Now →</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 cardborder">
+            <img src="laptop/product-3.png" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+                <h2 class="card-title">Xiaomi MI Notebook Pro</h2>
+                <p class="card-text">
+                    <ul class="text-start  grey">
+                        <li>list1</li>
+                        <li>list2</li>
+                        <li>list3</li>
+                        <li>list4</li>
+                        <li>list5</li>
+                        <li>list6</li>
+                        <li>list7</li>
+                        <li>list8</li>
+                        <li>list9</li>
+                        <li>list10</li>
+                    </ul>
+                </p>
+                <h3>$1809</h3>
+            </div>
+            <div class="card-footer d-flex justify-content-center">
+              <a class="buynowbtn "  href="#">Buy Now →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+ </div>
+
+
+<div class="categories text-center d-flex flex-column justify-content-center" id="features">
+    <h1>Categories </h1>
+ <!--<button class="line"></button>
+    <div class="line "></div>-->   
+    </div>
+
+  <div class="container">
+      <div class="row">
+          <div class="col-md-6 d-flex justify-content-center justify-content-evenly">
+              <div class="col-md-3 d-flex align-items-center  ">
+                  <img class="w-100 cardborder" src="categories/bag.png" alt="">
+              </div>
+              <div class="col-md-3 ">
+                  <div> <img class="w-100 cardborder" src="categories/shoe.png" alt="bag"></div>
+                  <div>
+                      <img class="w-100 cardborder" src="categories/perfume.png" alt="">
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-6">
+              <img class="w-100" src="categories/pale-order.png" alt="">
+          </div>
+      </div>
+  </div>
+  <footer class="copyright text-center" id="footer">
+      ©Kaiesmahmud,E-commerce-2,demo practise
+  </footer>
+
+
+
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/bootstrap.bundle.js"></script>
+    </body>
+</html>
